@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Navbar starts */
+
+#navbar {
+    position: fixed;
+}
+
+nav {
+  background-color: rgb(201, 54, 79);
+  width: 100%;
+  height: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  float: right;
+  font-size: 1.5em;
+  padding: 30px 20px;
+  font-family: "Lato", sans-serif;
+}
+
+#navbar nav a:nth-child(1) {
+  margin-right: 30px;
+}
+/* Navbar Ends */
+
+/* Welcome Section Starts */
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  background: rgb(17, 14, 13);
+}
+
+.main-header {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 270px;
+}
+
+#welcome-section h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 4em;
+  color: #ffffff;
+}
+
+#welcome-section p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  color: rgb(201, 54, 79);
+}
+/* Welcome Section Ends */
+
+/* Projects Section Starts */
+
+#projects {
+  background-color: rgb(94, 94, 172);
+}
+
+#projects h2 {
+  font-size: 3em;
+  text-align: center;
+  padding: 40px 0 10px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+#project-name {
+  border: 1px solid rgb(255, 255, 255);
+  width: 40%;
+  margin: 0 auto;
+}
+
+#projects .project-tile {
+  display: grid;
+  padding: 100px 50px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "project1 project2 project3"
+    "project4 project5 project6";
+
+  grid-gap: 1.5rem;
+}
+
+#projects .project-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#projects .project-tile .project1 {
+  grid-area: project1;
+}
+#projects .project-tile .project2 {
+  grid-area: project2;
+}
+
+#projects .project-tile .project3 {
+  grid-area: project3;
+}
+
+#projects .project-tile .project4 {
+  grid-area: project4;
+}
+
+#projects .project-tile .project5 {
+  grid-area: project5;
+}
+
+#projects .project-tile .project6 {
+  grid-area: project6;
+}
+
+#projects .project-tile a {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  background-color: black;
+}
+
+#projects .project-tile a:hover {
+    tra
+}
+
+#profile-link {
+  padding: 20px;
+}
+
+.project1,
+.project2,
+.project3 {
+  padding: 50px 0;
+}
+
+button {
+  background-color: grey;
+  color: white;
+  padding: 10px 30px 20px;
+  margin: 0 auto;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+}
+/* Projects Section Ends */
+
+/* Contact starts */
+#contact {
+  width: 100%;
+  height: 100vh;
+  background: rgb(38, 32, 31);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact h1 {
+  font-size: 4em;
+  padding: 100px 50px 0px 50px;
+}
+
+#contact p {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 100px;
+}
+
+#socials {
+  padding: 10px 20px;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+#socials i {
+  padding: 10px 20px;
+}
+
+footer {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  background: rgb(38, 32, 31);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 40px;
+}
+/* Contact ends */
+
+@media screen and (max-width: 768px) {
+  #projects .project-tile {
+    display: grid;
+    padding: 100px 50px;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "project1"
+      "project2"
+      "project3"
+      "project4"
+      "project5"
+      "project6";
+
+    grid-gap: 1.5rem;
+  }
+
+}
