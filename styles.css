@@ -6,7 +6,7 @@
 /* Navbar starts */
 
 #navbar {
-    position: fixed;
+  position: fixed;
 }
 
 nav {
@@ -129,10 +129,6 @@ nav a {
   background-color: black;
 }
 
-#projects .project-tile a:hover {
-    tra
-}
-
 #profile-link {
   padding: 20px;
 }
@@ -219,5 +215,4 @@ footer {
 
     grid-gap: 1.5rem;
   }
-
 }
