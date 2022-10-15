@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
+
+    <navbar id="navbar">
+        <nav>
+
+            <a href="#welcome-section">About</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </navbar>
+
     <section id="welcome-section">
         <h1>Hey I am Mimic</h1>
     </section>
@@ -16,34 +29,54 @@
         <div class="project-tile">
             <div>
                 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
-                <a href="https://facebook.com">Tribute Page</a>
+                <a id="profile-link" href="https://github.com/eric2umeh/microverse-trial-eric-prosper" target="_blank">Tribute Page</a>
             </div>
 
             <div>
                 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
-                <p>Random Quote Machine</p>
+                <a id="profile-link" href="https://github.com/eric2umeh/microverse-trial-eric-prosper" target="_blank">Random Quote Machine</a>
             </div>
 
             <div>
                 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="">
-                <p>Javascript Calculator</p>
+                <a id="profile-link" href="https://github.com/eric2umeh/microverse-trial-eric-prosper" target="_blank">Javascript Calculator</a>
             </div>
 
             <div>
                 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="">
-                <p>Map Data Across the Globe</p>
+                <a id="profile-link" href="https://github.com/eric2umeh/microverse-trial-eric-prosper" target="_blank">Map Data Across the Globe</a>
             </div>
 
             <div>
                 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="">
-                <p>Tribute Page</p>
+                <a id="profile-link" href="https://github.com/eric2umeh/microverse-trial-eric-prosper" target="_blank">Wikipedia Viewer</a>
             </div>
 
             <div>
                 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt="">
-                <p>Tribute Page</p>
+                <a id="profile-link" href="https://github.com/eric2umeh/microverse-trial-eric-prosper" target="_blank">Tic Tac Toe Game</a>
             </div>
         </div>
+
+        <button>Show all ></button>
     </section>
+
+    <section id="contact">
+        <h1>Let's work together...</h1>
+        <p>How do you like your coffee?</p>
+        <div id="socials">
+            <i class="fa fa-facebook-square"  aria-hidden="true">Facebook</i>
+            <i class="fa fa-facebook">Github</i>
+            <i class="fa fa-facebook">Twitter</i>
+            <i class="fa fa-facebook">Send a mail</i>
+            <i class="fa fa-facebook">Call me</i>
+        </div>
+
+        <hr>    
+    </section>
+
+    <footer>
+        ** This is just a fake portfolio. All the projects and contact details are not real. (c)Created for freeCodeCamp
+    </footer>
 </body>
 </html>
